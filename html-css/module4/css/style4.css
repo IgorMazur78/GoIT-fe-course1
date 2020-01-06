@@ -1,46 +1,55 @@
-/*{
+*{
     margin: 0px;
     padding: 0px;
-}*/
+}
+body {
+    margin: 0px;
+}
 .container {
-    width: 1150px;
+    width: 1110px;
     height: auto;
-    margin: 0 ;
+    margin: 0 auto;
 }
 nav ul li {   
      
     list-style: none;
-    float: right;     
+    float: left;     
 
+}
+.navigator {
+    display: block;
+    float: right;
 }
 .basicitem {
     margin: 0px;
     padding: 0px;
     font-size: 13px;
 } 
- li {
+ a {
     
-    font-family: "Open+Sans", sans-serif;
+    font-family: 'Open+Sans', sans-serif;
     font-size: 12px;
+    text-decoration: none;
+    font-weight: 900;
     margin: 0px;
 
 }
 
-li{ margin-right: 32px;
-}
-
-.item :last-child {
+li
+{ margin-right: 30px;}
+.basicitem .item:last-child {
     margin-right: 0px;
 }
-   
-    li :hover { color: #1abc9c  ;}
 
-.logotype {
+.item :hover { color: #1abc9c  ;}
+
+.logotype 
+{
     float: left;    
     
 }
 .logotype {
-    font-family: "Roboto black", sans-serif;
+    font-family: 'Roboto black', sans-serif;
     font-size: 21px;
     font-weight: 100;
 }
@@ -49,11 +58,23 @@ li{ margin-right: 32px;
     
 }
 header {
-    margin: 0px;
-    padding: 0px;
+    
     padding-bottom: 112px;
    
 }
+
+.wrapper 
+{
+
+width: 1110px;
+height: auto; 
+}
+.item {
+    list-style: none;
+
+}
+
+
 .title1{
     position: relative;
     font-family: "Roboto black", sans-serif;
@@ -77,11 +98,20 @@ header {
     background-color: #e9f0fd;
 }
  .item-block:hover  .name-item, .item-block:hover  .price-item
- {
-    background:  #1abc9c;
+ {  color: white;
+    background-color:  rgba(26, 188, 156);
 }
+ul .item-block:nth-child(4n) { margin-right: 0px;}
+
+.list{
+    margin: 0px;
+    display: block;
+    width: 1110px;
+    float: left;
+} 
 
 .item-block {
+    margin: 0px;
     float: left;
     display: block;
     margin-top: 93px;
@@ -89,7 +119,7 @@ header {
     margin-bottom: 32px;
     max-width: 255px;
   }
-
+  
   .name-item {
     padding: 14px;
   }
@@ -117,19 +147,37 @@ header {
     display: inline-block;
     width: 172px;
     background-color: #323232;
+    font-family: "Roboto black", sans-serif;
+    font-weight: 700;
   }
   .price-item {
     display: inline-block;
     margin-left:-4px;
     width: 55px;
     background: #8c8c8c;
+    font-family: "Roboto black", sans-serif;
+    font-weight: 700;
   }
+  .clearfix {
+    content:'';
+    clear: both;
+    display: block;
+
+  }
+  
   .wrapper::after{
     content:'';
     clear: both;
     display: block;
 
   }
+.wrapper2 
+{   display: block;
+    float:left;
+    margin: 0px;
+    width: 1110px;
+    height: auto; 
+}
 
   .title2{
     margin: 0px;
@@ -156,37 +204,48 @@ header {
     width: 165px;
     background-color: #1abc9c;
 }
-.wrapperlatest {
+/*.wrapperlates {
     display: block;
     width: 1150px;
     height: 960px;
     margin: 0 ;
+}*/
+ .item-block_LATEST 
+{ 
+    list-style: none;
 }
-.item-block_LATEST {
+
+.itemimg {
     margin: 0px;
     padding: 0px;
    display: block;    
    float: left;  
    margin-top: 135px;
-    margin-left: 30px;
+    margin-right: 28px;
     margin-bottom: 20px;
     max-width: 351px;
     max-height:auto;
 }
+.item-block_LATEST :last-child {margin-right: 0px;}
 .img2{
     width: 350px;
     height: 261px;
     
   }
-  button {
-      font-size: 15px;
-      font-family: "Roboto black", sans-serif;
-      text-align: center;
+  
+  .greenbutton {
+      border: 1px solid  #1abc9c;
+      display: inline-block;
+      padding: 21px 42px;
+      text-decoration: none;   
+      
+      font-size: 14px;
+      font-family: "Open Sans", sans-serif;      
       background-color: #1abc9c;
-      width: 162px;
-      height: 51px;
+      color: white ;
+      
   }
-/*.paragraph 
+.paragraph 
 {   margin: 0px;
     margin-bottom: 50px;
     font-family: "Open sans" sans-serif ;
@@ -196,19 +255,10 @@ header {
 .paragraph2 {
     margin: 0px;
     margin-bottom: 21px;
-}*/
-
-/*.item-block_LATEST :not(:first-child) {
-    margin-right: 90px;
-} */
-
-.wrapperlatest {
-    content:'';
-    clear: both;
-    display: block;
 }
+
   
-  main::after{
+  .clearfix {
     content:'';
     clear: both;
     display: block;
