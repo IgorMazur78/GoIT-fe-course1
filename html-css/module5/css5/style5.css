@@ -3,21 +3,24 @@
     padding: 0px;
 }
 body {
-    width: 1600px;
-    height: auto;
-    margin: 0px;
     
+    height: auto;
+    margin: 0px auto;
+}
+main {
+    width: 1600px;
 }
 
+
+
 .container {
-    width: 1600px;
-    height: auto;
-    margin: 0 auto;
-    background-color: #e9f0fd;
-}
-.wrapper {
     width: 1110px;
     height: auto;
+    margin: 0 auto;
+    
+}
+.collection {
+    
     background-color: #e9f0fd;
     
 }
@@ -28,7 +31,7 @@ nav ul li {
 
 }
 .link {
-    display: block;
+    display: inline-block;
 }
 .navigator {
     display: block;
@@ -39,8 +42,7 @@ nav ul li {
     padding: 0px;
     font-size: 13px;
 } 
- .link {
-    float: left;    
+ .link {   
     font-family: 'Open+Sans', sans-serif;
     font-size: 12px;
     text-decoration: none;
@@ -51,7 +53,7 @@ nav ul li {
 
 li
 { margin-right: 30px;}
-.basicitem .item:last-child {
+ul .item:last-child {
     margin-right: 0px;
 }
 
@@ -92,8 +94,8 @@ header {
     position: relative;   
     width: 1600px;
     height: 602px;
-    margin: 0;
-    padding-bottom: 100px;
+    margin: 0 auto;
+    
 
 
 }
@@ -121,6 +123,9 @@ header {
     
 
 
+}
+.slider ul {
+    list-style: none;
 }
 
 .title {
@@ -178,18 +183,21 @@ header {
     text-align: center;
     letter-spacing: -0.1em;
     padding-bottom: 118px;
+    padding-top: 98px;
 }
 .titile_NEWCOLLECTION::after
  {
         content: "";
         position: absolute;
-        top: 67px;
+        top: 167px;
         right: calc(50% - 105px);
         height: 7px;
         width: 165px;
         background-color: #1abc9c;
 
 }
+
+
 .item-block:hover  .name-item
  {  color: white;
  
@@ -203,7 +211,7 @@ header {
 
 
 ul .item-block:nth-child(4n) { margin-right: 0px;}
-.item-block:first-child { margin-left: 245px;}
+/*.item-block:first-child { margin-left: 245px;}*/
 
 ul {
     
@@ -232,6 +240,27 @@ ul {
 
   }
   
+.iconheart1:hover {
+    background-color: #1abc9c;
+    
+
+}
+.iconheart1:hover {
+    background-color: #1abc9c;
+    
+
+}
+  
+.iconarrow1:hover {
+    background-color: #1abc9c;
+    
+
+}
+.iconclock1:hover {
+    background-color: #1abc9c;
+    
+
+}
   .name-item {
     text-align: center;
     padding: 14px ;
@@ -294,6 +323,73 @@ ul {
       width: 235px;
       height: 265px;
   }
+      
+  .blackmenu ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      width: 170px;
+      height: 110px;
+      margin-top: 80px;
+  }
+  .iconmenu {
+      margin: 0px;
+      padding: 0px;
+      display: inline-block;
+  }
+  .iconheart1{
+    background-image: url(icon5/icon1.png);      
+    background-color: #737373;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 40px;
+    color: rgb( 255, 255, 255 );
+}
+.iconarrow1{
+    background-image: url(icon5/icon2.png);      
+    background-color: #737373;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 40px;
+    color: rgb( 255, 255, 255 );
+}
+.iconclock1{
+    background-image: url(icon5/icon3.png);      
+    background-color: #737373;
+    opacity: 1;
+    width: 50px;
+    height: 50px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 40px;
+    color: rgb( 255, 255, 255 );
+}
+.cart1 {
+    text-align: center;
+    padding: 14px 0;
+   
+}
+.cart1 {
+  position: absolute;
+  display: block;
+  left: 35px;
+  top: 137px;
+  width: 160px;
+  color: white;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 12px;
+  font-family: "Open+Sans", sans-serif;
+  background-color: #323232;
+
+}
+
   .icon {
      
       margin: 0px;
