@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body {
-    width: 1600px;    
+    /*width: 1600px;*/    
     height: auto;
     margin: 0px auto;
 }
@@ -489,7 +489,7 @@ ul {
   footer 
 
 {   position: relative;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
     width: 1600px;
     height: 90px;
