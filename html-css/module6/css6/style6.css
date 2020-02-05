@@ -23,6 +23,7 @@ nav ul li {
     
 
 }
+
 section {
     margin: 0 auto;
 }
@@ -78,30 +79,29 @@ h2 ul li {
     
     
 }
-/*AMAZING SERVIS*/
-.first-part {
-    position: relative;
-    padding-top: 100px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    
-}
 
-.first-part-item1 {
+.first-part {
+    margin: 0 auto;    
+    padding-top: 100px;
+    text-align: center;
     font-family:'Kaushan Script', cursive;
     font-size: 24px;
+    text-align: center;    
+    
 }
-.first-part-item2 {
+.first-part-item1{
+    position: relative;
     margin: 0px;
+    text-align: center;
+    padding-bottom: 24px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 500;
 }
-.first-part-item2::after {
+.first-part-item1::after {
         content: "";
         position: absolute;
-        top: 206px;
+        top: 64px;
         right: calc(50% - 50px);
         height: 4px;
         width: 60px;
@@ -188,16 +188,14 @@ h2 ul li {
 .second-part {
     margin: 0px auto;
     padding: 0;
-    position: relative;
-    
-}
-.second-part-item1 {
+    padding-bottom: 24px;    
     font-family:'Kaushan Script', cursive;
     font-size: 24px;
     text-align: center;
+    
 }
 .second-part-item2 {
-    
+    position: relative;    
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 500;
@@ -207,8 +205,8 @@ h2 ul li {
 .second-part-item2::after {
         content: "";
         position: absolute;
-        top: 106px;
-        right: calc(50% - 25px);
+        top: 64px;
+        right: calc(50% - 30px);
         height: 4px;
         width: 60px;
         background-color: #f38181;
@@ -246,7 +244,6 @@ h2 ul li {
 .list-team{ 
     margin: 0px auto;
     width: 1200px;
-    /*padding-top: 235px*/
     display: flex;
     flex-direction: row;
     align-items: center;
