@@ -17,8 +17,7 @@ nav ul li {
     margin: 0 auto;
     width: 1200px;
     height: 90px;
-    display: flex;
-    background-color: blueviolet;
+    display: flex;    
     align-items: center;
     justify-content: space-between;
     
@@ -169,7 +168,7 @@ h2 ul li {
     background-image: url("../icon6/digital.png");
 
 }
- h3{
+ .icon-title{
     position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px; 
@@ -177,7 +176,7 @@ h2 ul li {
     left: 60px;
 
 }
-p{
+.icon-text {
     position: absolute;
     font-size: 15px;
     font-family: "Roboto black", sans-serif; 
@@ -187,8 +186,9 @@ p{
 }
 /* MEET OUR TEAM*/
 .second-part {
-    position: relative;    
-    flex-direction: column;
+    margin: 0px auto;
+    padding: 0;
+    position: relative;
     
 }
 .second-part-item1 {
@@ -197,70 +197,90 @@ p{
     text-align: center;
 }
 .second-part-item2 {
-    margin: 0px;
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
+    padding-bottom: 92px;
 }
 .second-part-item2::after {
         content: "";
         position: absolute;
         top: 106px;
-        right: calc(50% - 30px);
+        right: calc(50% - 25px);
         height: 4px;
         width: 60px;
         background-color: #f38181;
 
 }
-.text {
 
-    position: absolute;
-    width: 940px;
-    top: 154px;
-    left: 210px;
+.text {
     text-align: center;
+    width: 940px;    
     font-size: 15px;
-    font-family: "Roboto black", sans-serif;
+    font-family: "Roboto black", sans-serif; 
+    line-height: 1.6;
+    color: rgb( 153, 153, 153 );
+    padding-left: 430px;
+    padding-bottom: 86px; 
+    
+    
 
 }
+
+
 
 /* PICTURES TEAM*/
-ul li {
+.team{
+    margin: 0px auto;
+}
+.team ul li {
     list-style: none;
-    margin: 0px;
-    padding: 0;
+   
+    padding: 0px;
 
 }
+
 
 .list-team{ 
     margin: 0px auto;
     width: 1200px;
-    list-style: none;
-    padding-top: 235px;
+    /*padding-top: 235px*/
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding-bottom: 86px;
+    border-bottom: 1px #e5e5e5;
+
 }
+
 .item-team {
+    display: flex;
     position: relative;
-    background-color: #95e1d3;
-    width: 381px;
-    height: 471px;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+    
     
 
 }
-.name {
-    padding-top: 30px;
-    text-align: center;
+.name {   
+    
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 31px;
 }
 .prof {
-    padding-top: 15px;
+
     text-align: center;
     font-family: "Roboto black", sans-serif;
+    font-style: italic;
+    color: rgb( 153, 153, 153 );
     font-size: 15px;
    
 }
@@ -268,6 +288,7 @@ ul li {
     background-color: #95e1d3;
     width: 381px;
     height: 471px;
+    
     
 }
 .orange {
@@ -280,17 +301,28 @@ ul li {
         top: 0;
         width: 381px;
         height: 471px;
-        transition: opacity 0.5s linear;
-        transform: translateX(-6px) translateY(-6px);
+        transition: opacity 0.5s linear, transform 0.5s linear;  
     
 }
 
-.item-team:hover .orange{
-        opacity: 0.9;
-        
-    
-        
+.team-pictures:hover .orange{
+        opacity: 0.9;  
+        transform: translateX(-10px) translateY(-10px);
 }
+.team-pictures:hover .pictures {
+   
+    transform: translateX(-10px) translateY(-10px);
+    
+ 
+}
+.pictures{
+    transition: transform 0.5s linear; 
+    width: 381px;
+    height: 471px;
+    
+    
+}
+
 .icon {
     position: absolute;
     left: 20%;
@@ -298,6 +330,7 @@ ul li {
     
 }
 .social-list {
+        list-style: none;
         display: inline-flex;
         align-items: center;
         position: absolute;
@@ -373,13 +406,18 @@ ul li {
     background-color: #95e1d3;
 }
 /*FOOTER*/
- .footer-container {
+ .footer-container{ 
+ 
+     border-top: 1px solid #e5e5e5 ;
      position: relative;
      margin: 0 auto; 
      width: 1200px;
      height: 62px;
-     padding-top: 86px;
+     padding: 0;
  }
+   
+
+
  
 form {
     position: absolute;
@@ -395,8 +433,17 @@ form {
 .footer-text {
     position: absolute;
     left: 0px;
-    top: 45px;
+    top: 26px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb( 51, 51, 51 );
 
+}
+input {
+    font-style: italic;
+    font-size: 15px;
+    color: rgb( 204, 204, 204 );
+    
 }
 button{
     width: 152px ;
@@ -413,7 +460,9 @@ footer ul li{
     color: #f6a6a6;
 }
 
+  
 
 
-
+  
+  
 
