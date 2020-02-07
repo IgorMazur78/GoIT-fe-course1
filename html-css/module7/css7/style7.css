@@ -339,7 +339,7 @@ textarea {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-style: normal;
-    /*resize: none;*/
+    resize: none;
     padding-top: 10px;
     
     color: rgb( 119, 119, 119 );
