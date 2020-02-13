@@ -283,7 +283,7 @@ h2 ul li {
 }
 .team ul li {
     list-style: none;
-   
+    margin: 0;   
     padding: 0px;
 
 }
@@ -377,22 +377,16 @@ h2 ul li {
     
 }
 
-.icon {
-    position: absolute;
-    left: 20%;
-    top: 50%;
-    
-}
 .social-list {
+
         list-style: none;
-        display: inline-flex;
-        align-items: center;
-        position: absolute;
-
-    
+        display: flex;        
+        justify-content: center;
+        margin-top: 50%;   
 }
-.facebook {  
 
+.facebook {  
+        display: block;
         background-image: url("../icon6/facebook.png");      
         background-color: #fce38a;
         background-repeat: no-repeat;
@@ -400,8 +394,7 @@ h2 ul li {
         opacity: 1;
         width: 56px;
         height: 56px;
-        border-width: 1px;
-        border-style: solid;
+        margin-right: 1px;
         font-size: 40px;
         color: #f38181;
 }
@@ -409,7 +402,7 @@ h2 ul li {
     background-color: #95e1d3;
 }
 .twitter {  
-
+    display: block;
     background-image: url("../icon6/twitter.png");      
     background-color: #fce38a;
     background-repeat: no-repeat;
@@ -417,8 +410,7 @@ h2 ul li {
     opacity: 1;
     width: 56px;
     height: 56px;
-    border-width: 1px;
-    border-style: solid;
+    margin-right: 1px;
     font-size: 40px;
     color: #f38181;
 }
@@ -426,16 +418,16 @@ h2 ul li {
     background-color: #95e1d3;
 }
 .pinterest {  
-
+    display: block;
     background-image: url("../icon6/pinterest.png");      
     background-color: #fce38a;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 1px;
     opacity: 1;
     width: 56px;
     height: 56px;
-    border-width: 1px;
-    border-style: solid;
+    
     font-size: 40px;
     color: #f38181;
 }
@@ -443,16 +435,14 @@ h2 ul li {
     background-color: #95e1d3;
 }
 .instagram {  
-
+    display: block;
     background-image: url("../icon6/instagram.png");      
     background-color: #fce38a;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: 1;
+    opacity:1;
     width: 56px;
     height: 56px;
-    border-width: 1px;
-    border-style: solid;
     font-size: 40px;
     color: #f38181;
 }
@@ -463,21 +453,25 @@ h2 ul li {
  .footer-container{ 
  
      border-top: 1px solid #e5e5e5 ;
-     position: relative;
+     display: flex;
+     justify-content: space-between;
      margin: 0 auto; 
      width: 1200px;
      height: 62px;
      padding: 0;
  }
-   
+ footer ul li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
 
 
  
 form {
-    position: absolute;
-    display: inline-flex;
+    margin-top: 11px;
+    display: flex;
     justify-content: flex-end;
-    top: 20%;
     right: 0;
     height: 40px;
     width: 380px;
@@ -485,31 +479,35 @@ form {
 
 }
 .footer-text {
-    position: absolute;
     left: 0px;
-    top: 26px;
+    margin-top: 26px;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     color: rgb( 51, 51, 51 );
 
 }
 input {
+    height: 38px;
+    font-family: 'roboto';
     font-style: italic;
     font-size: 15px;
     color: rgb( 204, 204, 204 );
     
 }
 button{
-    width: 152px ;
-    height: 40px;
     border: none;
+    width: 152px ;
+    height: 42px;
+    border: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+
     background-color:#95e1d3 ;
 }
-footer ul li{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
-}
+
 .laaqiq {
     color: #f6a6a6;
 }
