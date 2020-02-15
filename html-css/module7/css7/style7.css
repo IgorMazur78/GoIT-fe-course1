@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .container {
-   
+    width: 934px;   
     margin: 0 auto;
     padding: 0;
 }
@@ -15,8 +15,8 @@ nav ul li {
 }
 
 section{
-    margin: 0 auto;
-    width: 1400px;
+    /*margin: 0 auto;
+    width: 1400px;*/
     height: auto;
 
 }
@@ -71,7 +71,7 @@ section{
  
  .navigation {
     margin: 0 auto;
-    width: 934px;
+    
     /*height: 100px;*/
     display: flex;    
     align-items: center;
@@ -184,7 +184,8 @@ h2 ul li {
 
 }
 .icon-text {
-    font-family: 'roboto-slab', sans-serif;
+    /*font-family: 'roboto-slab', sans-serif;*/
+    font-family: 'Roboto Slab';
     font-size: 14px;
     font-style: normal;
     color: rgb( 119, 119, 119 );
