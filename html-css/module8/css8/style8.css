@@ -1,0 +1,106 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('../fonts8/montserrat-v14-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts8/montserrat-v14-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts8/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts8/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-slab-regular - latin */
+@font-face {
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts8/roboto-slab-v11-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts8/roboto-slab-v11-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  } 
+  /* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+         url('../fonts8/roboto-v20-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts8/roboto-v20-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  @media (min-width: 320px) {
+      body {
+
+background-color: lawngreen;
+      }
+  }
+  @media (min-width: 480px) {
+    body {
+
+background-color: red;
+    }
+}
+@media (min-width: 768px) {
+    body {
+
+background-color: darkblue;
+    }
+}
+    @media (min-width: 960px) {
+        body {
+  
+  background-color: green;
+        }
+    }
+        @media (min-width: 1200px) {
+            body {
+      
+      background-color: yellow;
+            }
+        }
+            @media (min-width: 1440px) {
+                body {
+          
+          background-color: grey;
+                }
+            }
+
+
+/* Style for "Log in" */
+/*width: 41px;
+height: 14px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;*/
+
+//* Style for "Sign up" */
+/*width: 53px;
+height: 14px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 14px;
+font-weight: 700;*/
+
+/* Style button for sign in 
+width: 90px;
+height: 36px;
+border: 2px solid #ffffff;
+background-color: #1a1915;*/
+
+/* Style for "URLAUBSGLÜ" */
+/*width: 177px;
+height: 20px;
+color: #ffffff;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+/* Text style for "U, RLAUBSG" */
+/*letter-spacing: 1px;*/
