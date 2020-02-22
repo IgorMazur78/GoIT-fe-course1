@@ -63,30 +63,36 @@ nav ul li {
 }
 
 .two-button{
-
+    width: 240px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 115px;
+    justify-content: space-evenly;
     text-align: center;
-    
 }
 
 .enter {
     width: 90px;
     height: 36px;
-    text-transform: uppercase;
-    border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, 1);
     color: #ffffff;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
+    padding-top: 15px;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0);   
     background-color: inherit;
 }
 .log_in_click {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
     text-decoration: none;
+    text-transform: uppercase;
     color:  rgba(255, 255, 255, 1);
+    text-align: center;
+    
 }
-.click:hover {
-    border: 2px solid #ffffff;
+.enter:hover {
+    border: 2px solid rgba(255, 255, 255, 1);
 
 }
 
@@ -99,9 +105,6 @@ nav ul li {
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 38px;
-}
-.header_share {
-
 }
 
 .share {
@@ -132,14 +135,16 @@ nav ul li {
     display: block;
     width: 280px;
     height: 40px;
+    text-align: center;
+    padding-top: 15px;
     background-color: #ff4e50;
-    border: none;
     border-radius: 20px;
 
 }
 .choice {
     text-decoration: none;
     color: #ffffff;
+    
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 700;
@@ -258,6 +263,7 @@ ul li {
     margin: auto;
 }
 .item-partner {
+    margin: auto;
     padding-bottom: 25px;
 
 }
@@ -265,6 +271,8 @@ ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 220px;
+    height: 236px;
 }
 .end_button{
     margin-bottom: 57px;
@@ -303,6 +311,9 @@ ul li {
     height:699px;
 
 }
+.two-button {
+    margin: 0px;
+}
 .meet {
     margin: auto;
     width: 420px;
@@ -340,9 +351,6 @@ ul li {
     font-size: 52px;
     
 }
-.header_text {
-    width: 402px;
-}
 .text {
     width: 368px;
 }
@@ -363,7 +371,7 @@ ul li {
     }
     .list-partner {
         margin: auto;
-        width: 1200px; 
+        width: 846px; 
         height: 260px;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -376,64 +384,20 @@ ul li {
         margin-right: 0px;
 
     }
+    .text {
+        width: 368px;
+        margin-bottom: 41px;
+    }
+    .find_partners {
+        margin-top: 0 ;
+        
+    }
+    .Lukas_Marsha{
+        order: 1;
+    }
+    .Sindy_Crowford {
+        order: 2;
+    }
     
     
 }
-/*@media screen and (orientation:portrait){
-    body {
-
-background-color: darkblue;
-    }
-}
-    @media screen and (orientation:landscape) {
-        body {
-  
-  background-color: green;
-        }
-    }
-        /*@media (min-width: 1200px) {
-            body {
-      
-      background-color: yellow;
-            }
-        }
-           /* @media (min-width: 1440px) {
-                body {
-          
-          background-color: grey;
-                }
-            }*/
-
-
-/* Style for "Log in" */
-/*width: 41px;
-height: 14px;
-color: #ffffff;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;*/
-
-/* Style for "Sign up" */
-/*width: 53px;
-height: 14px;
-color: #ffffff;
-font-family: Montserrat;
-font-size: 14px;
-font-weight: 700;*/
-
-/* Style button for sign in 
-width: 90px;
-height: 36px;
-border: 2px solid #ffffff;
-background-color: #1a1915;*/
-
-/* Style for "URLAUBSGLÜ" */
-/*width: 177px;
-height: 20px;
-color: #ffffff;
-font-family: Montserrat;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-/* Text style for "U, RLAUBSG" */
-/*letter-spacing: 1px;*/
