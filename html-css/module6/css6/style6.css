@@ -476,14 +476,15 @@ input {
     font-style: italic;
     font-size: 15px;
     padding-left: 10px;
-    color: rgb( 204, 204, 204 );
+    color: black
+    
     
 }
 input::placeholder {
     font-family: 'roboto';
     font-style: italic;
     font-size: 15px;
-    color: red;
+    color:  rgb( 204, 204, 204 );
 
 }
 button{
