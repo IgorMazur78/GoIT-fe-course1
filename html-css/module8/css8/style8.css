@@ -42,7 +42,6 @@
 }
 .container {
     width: 320px;
-    padding: 0 10px;
     margin: 0 auto;
 }
 nav ul li {       
@@ -64,8 +63,9 @@ nav ul li {
 
 .two-button{
     width: 240px;
-    margin: auto;
+    height: 42px;
     display: flex;
+    margin: auto;
     flex-direction: row;
     margin-bottom: 115px;
     justify-content: space-evenly;
@@ -74,9 +74,12 @@ nav ul li {
 
 .enter {
     width: 90px;
-    height: 36px;
+    height: 40px;
     color: #ffffff;
-    padding-top: 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;  
     border-radius: 25px;
     border: 2px solid rgba(255, 255, 255, 0);   
     background-color: inherit;
@@ -97,8 +100,11 @@ nav ul li {
 }
 
 .urlaubsgluck {
+    margin: auto;
+    display: block;
     text-align: center;
     color: #ffffff;
+    text-decoration: none;
     font-size: 20px;
     font-family: 'Montserrat';
     font-weight: 700;
@@ -163,6 +169,9 @@ nav ul li {
     
 
 }
+.partner_list {
+    margin: auto;
+}
 
 .list-partner {
     display: flex;
@@ -170,6 +179,17 @@ nav ul li {
 }
 ul li {
     list-style: none;
+}
+.item-partner {
+
+    display: flex;
+    margin: auto;
+    width: 236px;
+    height: 236px;
+
+}
+.Lukas_Marsha {
+    height: 263px;
 }
 .pictures {
     
@@ -301,7 +321,7 @@ ul li {
 }
 .beginning {  
     margin: 0px auto;
-    background-image: url("../img8/Vector_Smart_Object_tablet.png") ;
+    background-image: url("../img8/Vector_Smart_desktop.png") ;
     background-repeat: no-repeat;
 
     background-size: cover;
@@ -343,9 +363,13 @@ ul li {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height: 22px;
     margin: 50px 50px 163px;
 }
+.urlaubsgluck{
+    
+    margin-left: 0px;
+}
+
 .share {
     
     font-size: 52px;
@@ -355,17 +379,18 @@ ul li {
     width: 368px;
 }
   }
-  @media (min-width: 1440px) {
+  @media (min-width: 960px) {
     .container {
-        width: 1440px;
+        width: 960px;
        /* padding: 0 10px;
         margin: 0 auto;*/
         
         
     }
     .beginning {  
-        background-image: url("../img8/Vector_Smart_Object_desktop.png") ;  
-        width: 1440px;
+        background-image: url("../img8/Vector_Smart_desktop.png") ;
+
+        width: 960px;
         height:702px;
     
     }
