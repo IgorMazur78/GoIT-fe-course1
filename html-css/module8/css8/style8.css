@@ -179,7 +179,7 @@ ul li {
 
 }
 .Lukas_Marsha {
-    height: 263px;
+    height: 238px;
 }
 .pictures {
     
@@ -258,15 +258,17 @@ ul li {
     font-size: 14px;
     font-family: 'Montserrat';
     font-weight: 700;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 .who-i-am {
+    margin: 0 auto;
     display: block;
     width: 194px;
     font-size: 14px;
     color: #666666;
+    line-height: 1;
     font-family: 'Roboto';
     font-weight: 300;
     text-align: center;
@@ -274,7 +276,7 @@ ul li {
 }
 .item-partner {
     margin: auto;
-    padding-bottom: 25px;
+    padding-bottom: 15px;
 
 }
 .team-pictures {
