@@ -48,14 +48,17 @@ nav ul li {
     list-style: none;    
 
 }
-.beginning {
-    margin: 0 auto;
-    display: flex; 
-    flex-direction: column;
+.banner {
     background-image: url("../img8/Vector_Smart_Object.png") ;
     background-repeat: no-repeat;
     background-position: top center;
     background-color: rgba(26, 25, 21, 0.9);
+
+}
+.beginning {
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;    
     padding-top: 20px;
     height:520px;
 
@@ -84,16 +87,7 @@ nav ul li {
     border: 2px solid rgba(255, 255, 255, 0);   
     background-color: inherit;
 }
-.log_in_click {
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    color:  rgba(255, 255, 255, 1);
-    text-align: center;
-    
-}
+
 .enter:hover {
     border: 2px solid rgba(255, 255, 255, 1);
 
@@ -141,22 +135,18 @@ nav ul li {
     display: block;
     width: 280px;
     height: 40px;
+    border: none;
     text-align: center;
-    padding-top: 15px;
+    color: #ffffff;    
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 700;    
     background-color: #ff4e50;
     border-radius: 20px;
 
 }
-.choice {
-    text-decoration: none;
-    color: #ffffff;
     
-    font-size: 14px;
-    font-family: 'Montserrat';
-    font-weight: 700;
-
-
-} /*section*/
+ /*section*/
 .meet {
     display: block;
     width: 258px;
@@ -319,14 +309,12 @@ ul li {
    
     
 }
-.beginning {  
+.banner {  
     margin: 0px auto;
     background-image: url("../img8/Vector_Smart_desktop.png") ;
     background-repeat: no-repeat;
 
     background-size: cover;
-   /*background-color: rgba(26, 25, 21, 1);*/
-    /*padding-top: 20px;*/
     width: 768px;
     height:699px;
 
@@ -382,14 +370,11 @@ ul li {
   @media (min-width: 960px) {
     .container {
         width: 960px;
-       /* padding: 0 10px;
-        margin: 0 auto;*/
-        
+       
         
     }
-    .beginning {  
+    .banner {  
         background-image: url("../img8/Vector_Smart_desktop.png") ;
-
         width: 960px;
         height:702px;
     
