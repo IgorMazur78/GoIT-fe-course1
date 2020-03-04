@@ -41,21 +41,34 @@
     padding: 0px;
 }
 .container {
-    width: 320px;
+    min-width: 320px;
+    max-width: 260px;
     margin: 0 auto;
 }
 nav ul li {       
     list-style: none;    
 
 }
+.Rectangle_1 {
+    background-color: rgb(26, 25, 21);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 320px;
+    height: 540px;
+    z-index: 44;
+  }
+  
 .banner {
-    background-image: url("../img8/Vector_Smart_Object.png") ;
+    background-image: url("../img8/Vector-Smart-Object.png") ;
     background-repeat: no-repeat;
-    background-position: top center;
-    background-color: rgba(26, 25, 21, 0.9);
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(26, 25, 21, 0);
 
 }
 .beginning {
+    
     margin: 0 auto;
     display: flex; 
     flex-direction: column;    
@@ -149,6 +162,7 @@ nav ul li {
  /*section*/
 .meet {
     display: block;
+    margin: auto;
     width: 258px;
     text-align: center;
     font-family: 'Montserrat';
@@ -307,17 +321,17 @@ ul li {
   @media (min-width: 768px) {
 
     .container {
-    width: 768px;
-   
+    min-width: 768px;   
     
 }
+
 .banner {  
     margin: 0px auto;
-    background-image: url("../img8/Vector_Smart_desktop.png") ;
+    background-image: url("../img8/ddd.png") ;
     background-repeat: no-repeat;
-
+    background-color: rgba(26, 25, 21, 0);
     background-size: cover;
-    width: 768px;
+    min-width: 768px;
     height:699px;
 
 }
@@ -371,13 +385,14 @@ ul li {
   }
   @media (min-width: 960px) {
     .container {
-        width: 960px;
+        min-width: 960px;
        
         
     }
     .banner {  
         background-image: url("../img8/Vector_Smart_desktop.png") ;
-        width: 960px;
+        background-color: rgba(26, 25, 21, 0);
+        min-width: 960px;
         height:702px;
     
     }
