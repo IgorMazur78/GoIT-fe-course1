@@ -391,7 +391,7 @@ ul li {
     }
     .banner {  
         background-image: url("../img8/Vector_Smart_desktop.png") ;
-        background-color: rgba(26, 25, 21, 0);
+        background-color: rgba(26, 25, 21, 1);
         min-width: 960px;
         height:702px;
     
