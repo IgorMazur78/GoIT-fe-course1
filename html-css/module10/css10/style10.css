@@ -121,7 +121,10 @@ nav ul li {
   }
   .header-button {
      display: block;
+     margin: auto;
     font-size: 14px;
+    width: 158px;
+    height: 37px;
     font-family: "Montserrat";
     font-weight: bold;
     line-height: 1.2;
@@ -188,11 +191,11 @@ h2 ul li {
   
     
 }
-.servise-title__servise {
+.servise-title__amazing {
     
     margin: 0px;
     text-align: center;
-    padding-bottom: 24px;
+    padding-bottom: 42px;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
@@ -329,10 +332,9 @@ h2 ul li {
     font-size: 30px;
     
 }
-.second-part::after {
+.team-title::after {
         content: "";        
-        margin:  auto;
-        top: 50px;       
+        margin:  auto;    
         height: 4px;
         width: 60px;
         background-color: #f38181;
