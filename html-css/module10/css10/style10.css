@@ -9,28 +9,22 @@ nav ul li {
 
 }
 .header {
-    display: block;
     position: relative;
     margin: 0 auto;
-      
-    width: 1920px;
-    height: 1000px;
-    background-size: cover;
-    background-position: center;
+    width: 100%;    
+    height: 1000px;        
+    background: url("../img10/eagle.png") center no-repeat;
+    background-size: 100% 100%;   
     margin-bottom: 50px;
-    opacity: 1;
+    opacity: 1;    
     
 }
-.header__picture {
-    display: block;
-    max-width: 100%;
-    height: auto;        
-     
-    
-}
+  
+
 .header-container {
     width: 1200px;
     margin: 0 auto;
+    
     
 }
 .container {
@@ -180,18 +174,18 @@ h2 ul li {
 
 }
 
-.servise-title {
+.title {
     display: flex;
     flex-direction: column;
     margin: 0 auto;    
-    /*padding-top: 100px;*/
+   
     text-align: center;
     font-family:'Kaushan Script', cursive;
     font-size: 24px;
   
     
 }
-.servise-title__amazing {
+.title__amazing {
     
     margin: 0px;
     text-align: center;
@@ -201,7 +195,7 @@ h2 ul li {
     font-weight: bold;
     font-size: 30px;
 }
-.servise-title::after {
+.title::after {
         content: "";        
         margin: 0 auto;       
         height: 4px;
@@ -217,6 +211,7 @@ h2 ul li {
     padding-top: 66px;
     list-style: none;
     display: flex;
+    margin-bottom: 100px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -252,37 +247,37 @@ h2 ul li {
 .servise-list__item--photography::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons10/Photography.png");
+    background-image: url("../icons10/alarm.svg");
 
 }
 .servise-list__item--webdisign::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons10/Web Design.png");
+    background-image: url("../icons10/linegarph.svg");
 
 }
 .servise-list__item--creativity::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons10/Creativity.png");
+    background-image: url("../icons10/computer.svg");
 
 }
 .servise-list__item--seo::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons10/seo.png");
+    background-image: url("../icons10/book.svg");
 
 }
 .servise-list__item--program::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons10/Css_Html.png");
+    background-image: url("../icons10/home.svg");
 
 }
 .servise-list__item--digital::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons10/digital.png");
+    background-image: url("../icons10/digital.svg");
 
 }
  .servise-list__icontitle {
@@ -310,18 +305,8 @@ h2 ul li {
   
 /* MEET OUR TEAM*/
 
-.team-title {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;    
-    padding-top: 100px;
-    text-align: center;
-    font-family:'Kaushan Script', cursive;
-    font-size: 24px;
-    text-align: center;    
-    
-}
-.team-title__meet {
+
+.title__meet {
     display: block;
     margin: 0px auto;
     text-align: center;
@@ -330,14 +315,6 @@ h2 ul li {
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
-    
-}
-.team-title::after {
-        content: "";        
-        margin:  auto;    
-        height: 4px;
-        width: 60px;
-        background-color: #f38181;
     
 }
 
@@ -471,7 +448,7 @@ h2 ul li {
         opacity: 1;
         width: 56px;
         height: 56px;
-        margin-right: 1px;
+        margin-right: 2px;
         font-size: 40px;
         
 
@@ -489,9 +466,9 @@ h2 ul li {
         text-align: center;
         padding-top: 13px;
         opacity: 1;
-        width: 56px;
-        height: 56px;
-        margin-right: 1px;
+       /* width: 56px;
+        height: 56px;*/
+       
         font-size: 40px;
 }  
 .facebook:hover {
@@ -507,9 +484,9 @@ h2 ul li {
     padding-top: 13px;
     padding-right: 13px;
     opacity: 1;
-    width: 56px;
-    height: 56px;
-    margin-right: 1px;
+    /*width: 56px;
+    height: 56px;*/
+    
     font-size: 40px;
     
 }
@@ -524,9 +501,9 @@ h2 ul li {
     padding-top: 13px;
     padding-right: 13px;       
     opacity: 1;
-    width: 56px;
-    height: 56px;
-    margin-right: 1px;
+    /*width: 56px;
+    height: 56px;*/
+    
     font-size: 40px;  
     
 }
@@ -541,9 +518,9 @@ h2 ul li {
     padding-top: 12px;
     padding-right: 15px;
     opacity: 1;
-    width: 56px;
-    height: 56px;
-    margin-right: 1px;
+    /*width: 56px;
+    height: 56px;*/
+   
     font-size: 40px;  
 }
 
@@ -618,9 +595,12 @@ h2 ul li {
     color: #f6a6a6;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    .box {
-      background: url('img10/eagle.png.png/1920/1000/nature') no-repeat;
-    } 
+        .header {
+          background: url("../img10/picture@2x-min.png") center no-repeat;
+          
+        }
+    }
+
 
   
 
