@@ -16,9 +16,9 @@ nav ul li {
     margin: 0 auto;
     width: 100%;    
     height: 1000px;        
-    background: -webkit-gradient( linear, left top, right top, from(rgba(252,227,138, .9)), to(rgba(243,129,129, .9))), url("../img10/eagle.png") center no-repeat;        
-    background: -o-linear-gradient( left, rgba(252,227,138, .9) 0%, rgba(243,129,129, .9) 100%), url("../img10/eagle.png") center no-repeat;        
-    background: linear-gradient( 90deg, rgba(252,227,138, .9) 0%, rgba(243,129,129, .9) 100%), url("../img10/eagle.png") center no-repeat;
+    background: -webkit-gradient( linear, left top, right top, from(rgba(252,227,138, .9)), to(rgba(243,129,129, .9))), url("../img10/eagle-min.png") center no-repeat;        
+    background: -o-linear-gradient( left, rgba(252,227,138, .9) 0%, rgba(243,129,129, .9) 100%), url("../img10/eagle-min.png.png") center no-repeat;        
+    background: linear-gradient( 90deg, rgba(252,227,138, .9) 0%, rgba(243,129,129, .9) 100%), url("../img10/eagle-min.png") center no-repeat;
     background-size: cover; 
     margin-bottom: 50px;
     opacity: 1;    
@@ -586,6 +586,7 @@ h2 ul li {
     font-family: 'roboto';
     font-style: italic;
     font-size: 15px;
+    border: silver;
     padding-left: 10px;
     color: black
     
@@ -644,8 +645,8 @@ h2 ul li {
 }
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi) {
         .header {
-          background: url("../img10/picture@2x-min.png") center no-repeat;
-          
+          background: linear-gradient( 90deg, rgba(252,227,138, .9) 0%, rgba(243,129,129, .9) 100%), url("../img10/picture@2x-min.png") center no-repeat;
+          background-size: cover;
         }
     }
 
