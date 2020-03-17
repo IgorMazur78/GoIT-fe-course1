@@ -1,0 +1,106 @@
+/* SERVIS*/
+.servise-list{
+    margin: 0px auto ;
+    padding-top: 66px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;    
+    
+}
+.servise-list__item {
+    position: relative;
+    width: 380px;
+    padding-left: 80px;
+    padding-bottom: 104px;
+   
+    
+
+
+}
+.servise-list__item:nth-child(n+4) {
+    padding-bottom: 0px;
+}
+
+.servise-list__item::before {
+    content: '';     
+    display:inline-block;                
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    width: 33px;
+    height: 33px;
+    margin-right: 26px;
+    
+        
+}
+.servise-list__item--photography::before {
+    position: absolute;
+    left: 26px;
+    background-image: url("../images/icons11/alarm.svg");
+
+}
+.servise-list__item--webdisign::before {
+    position: absolute;
+    left: 26px;
+    background-image: url("../icons11/linegarph.svg");
+
+}
+.servise-list__item--creativity::before {
+    position: absolute;
+    left: 26px;
+    background-image: url("../icons11/computer.svg");
+
+}
+.servise-list__item--seo::before {
+    position: absolute;
+    left: 26px;
+    background-image: url("../icons11/book.svg");
+
+}
+.servise-list__item--program::before {
+    position: absolute;
+    left: 26px;
+    background-image: url("../icons11/home.svg");
+
+}
+.servise-list__item--digital::before {
+    position: absolute;
+    left: 26px;
+    background-image: url("../icons11/digital.svg");
+
+}
+ .servise-list__icontitle {
+  
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 14px; 
+    font-weight: 100;
+ }
+
+  
+.servise-list__icontext {
+    
+    font-size: 15px;
+    font-family: "Roboto black", sans-serif;
+    color: $servise-base-color;
+    line-height: 2;
+    top: 30px;
+    left: 60px;
+
+}
