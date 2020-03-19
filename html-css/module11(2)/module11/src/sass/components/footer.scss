@@ -36,13 +36,13 @@ footer ul li{
    left: 0px;
    margin-top: 26px;
    font-size: 14px;
-   font-family: "Montserrat", sans-serif;
-   color: rgb( 51, 51, 51 );
+   font-family: $base-font;
+   color:$servise-icontitle-color;
 
 }
 .footer-input {
    height: 38px;
-   font-family: 'roboto';
+   font-family: $all-text-font;
    font-style: italic;
    font-size: 15px;
    border: silver;
@@ -52,38 +52,38 @@ footer ul li{
    
 }
 .footer-input::-webkit-input-placeholder {
-   font-family: 'roboto';
+   font-family: $all-text-font;
    font-style: italic;
    font-size: 15px;
-   color:  rgb( 204, 204, 204 );
+   color:  $footer-text-color;
 
 }
 .footer-input::-moz-placeholder {
-   font-family: 'roboto';
+   font-family: $all-text-font;
    font-style: italic;
    font-size: 15px;
-   color:  rgb( 204, 204, 204 );
+   color: $footer-text-color;
 
 }
 .footer-input:-ms-input-placeholder {
-   font-family: 'roboto';
+   font-family: $all-text-font;
    font-style: italic;
    font-size: 15px;
-   color:  rgb( 204, 204, 204 );
+   color:  $footer-text-color;
 
 }
 .footer-input::-ms-input-placeholder {
-   font-family: 'roboto';
+   font-family: $all-text-font;
    font-style: italic;
    font-size: 15px;
-   color:  rgb( 204, 204, 204 );
+   color:  $footer-text-color;
 
 }
 .footer-input::placeholder {
-   font-family: 'roboto';
+   font-family: $all-text-font;
    font-style: italic;
    font-size: 15px;
-   color:  rgb( 204, 204, 204 );
+   color: $footer-text-color;
 
 }
 .footer-button{
@@ -92,7 +92,7 @@ footer ul li{
    height: 38px;
    border: none;
    color: white;
-   font-family: "Montserrat", sans-serif;
+   font-family: $base-font;
    font-weight: bold;
    font-size: 14px;
    text-transform: uppercase;

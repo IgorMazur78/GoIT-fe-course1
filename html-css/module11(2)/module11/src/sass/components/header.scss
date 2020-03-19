@@ -55,6 +55,8 @@ nav ul li {
    -webkit-box-pack: justify;
        -ms-flex-pack: justify;
            justify-content: space-between;
+
+
    
   }
   
@@ -62,7 +64,7 @@ nav ul li {
   
   .header__logo {
     text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $base-font;
     font-weight: bold;
     color: $header-base-color;
     font-size: 30px;
@@ -72,13 +74,43 @@ nav ul li {
   .header-list__item {
     position: relative;
     text-decoration:none;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $base-font;
     text-transform: uppercase;
     color: $header-base-color;
     font-size: 14px;
+
+    &::after {
+      position: absolute;
+      background-color: $header-nav-hover-color;
+      content: "";
+      top: 25px;
+      left: 0;
+      height: 3px;
+      width: 100%;
+      opacity: 0;
+      
+    
+    }
+    &--hover:hover {
+      color: $header-nav-hover-color;
+      -webkit-transition: color 0.3s linear;
+      -o-transition: color 0.3s linear;
+      transition: color 0.3s linear;
+      
+      
+    }
+    &--hover:hover::after{
+         opacity: 1 ;
+         -webkit-transition: opacity 200ms linear;
+         -o-transition: opacity 200ms linear;
+         transition: opacity 200ms linear;
+      
+      
+    }
   
     
   }
+
   .header-title {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -89,7 +121,7 @@ nav ul li {
             flex-direction: column;
     margin: 0 auto;    
     font-size: 72px;
-    font-family: "Kaushan Script";
+    font-family: $title-font;
     color: $header-base-color;
     line-height: 1.2;
     text-align: center;
@@ -98,7 +130,7 @@ nav ul li {
   }
   .header-title__Welcome {
     font-size: 150px;
-    font-family: "Montserrat";
+    font-family: $base-font;
     color: $header-base-color;
     font-weight: bold;
     text-transform: uppercase;
@@ -113,7 +145,7 @@ nav ul li {
     font-size: 14px;
     width: 158px;
     height: 37px;
-    font-family: "Montserrat";
+    font-family: $base-font;
     font-weight: bold;
     line-height: 1.2;
     text-align: center;
@@ -126,31 +158,4 @@ nav ul li {
     border-color: $header-base-color;
     background-color: rgba(0, 0, 0, 0);
   }
-  .header-list__item::after {
-    position: absolute;
-    background-color: $header-nav-hover-color;
-    content: "";
-    top: 25px;
-    left: 0;
-    height: 3px;
-    width: 100%;
-    opacity: 0;
-    
   
-  }
-  .header-list__item--hover:hover {
-    color: $header-nav-hover-color;
-    -webkit-transition: color 0.3s linear;
-    -o-transition: color 0.3s linear;
-    transition: color 0.3s linear;
-    
-    
-  }
-  .header-list__item--hover:hover::after{
-       opacity: 1 ;
-       -webkit-transition: opacity 200ms linear;
-       -o-transition: opacity 200ms linear;
-       transition: opacity 200ms linear;
-    
-    
-  }

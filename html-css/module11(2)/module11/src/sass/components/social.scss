@@ -19,7 +19,7 @@
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;              
-   background-color: #fce38a;
+   background-color: $social-color;
    opacity: 1;
    width: 56px;
    height: 56px;
@@ -29,18 +29,19 @@
 
 }
 .social-list__link:hover {
-background-color:  #f38181;
+background-color:$social-color ;
 }
 .social-list__icon {
 display:block;
-fill:rgb(243, 129, 129);
+fill:$title-color-after;
 width: 30px;
 height: 30px;    
 opacity: 1;   
-font-size: 30px
+font-size: 30px;
+
+&:hover {
+
+fill: rgb (255, 255, 255);
+
 }
-.social-list__icon:hover {
-
-fill: rgb(255, 255, 255);
-
 }

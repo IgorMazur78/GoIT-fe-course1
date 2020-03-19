@@ -56,37 +56,37 @@
 .servise-list__item--webdisign::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons11/linegarph.svg");
+    background-image: url("../images/icons11/linegarph.svg");
 
 }
 .servise-list__item--creativity::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons11/computer.svg");
+    background-image: url("../images/icons11/computer.svg");
 
 }
 .servise-list__item--seo::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons11/book.svg");
+    background-image: url("../images/icons11/book.svg");
 
 }
 .servise-list__item--program::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons11/home.svg");
+    background-image: url("../images/icons11/home.svg");
 
 }
 .servise-list__item--digital::before {
     position: absolute;
     left: 26px;
-    background-image: url("../icons11/digital.svg");
+    background-image: url("../images/icons11/digital.svg");
 
 }
  .servise-list__icontitle {
   
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
+    font-family: $base-font;
+    color:$servise-icontitle-color;
     padding-bottom: 15px;
     text-transform: uppercase;
     font-size: 14px; 
@@ -97,7 +97,7 @@
 .servise-list__icontext {
     
     font-size: 15px;
-    font-family: "Roboto black", sans-serif;
+    font-family: $all-text-font;
     color: $servise-base-color;
     line-height: 2;
     top: 30px;
