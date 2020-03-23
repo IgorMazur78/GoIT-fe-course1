@@ -8,8 +8,8 @@
         -ms-flex-pack: center;        
             justify-content: center;
     margin-top: 50%;
-}  
-.social-list__link {
+  
+&__link {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
@@ -19,7 +19,7 @@
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;              
-   background-color: $social-color;
+   background-color: $header-nav-hover-color;
    opacity: 1;
    width: 56px;
    height: 56px;
@@ -28,12 +28,12 @@
     
 
 }
-.social-list__link:hover {
-background-color:$social-color ;
+&__link:hover {
+background-color: $header-nav-hover-color ;
 }
-.social-list__icon {
+&__icon {
 display:block;
-fill:$title-color-after;
+fill: $title-color-after;
 width: 30px;
 height: 30px;    
 opacity: 1;   
@@ -41,7 +41,8 @@ font-size: 30px;
 
 &:hover {
 
-fill: rgb (255, 255, 255);
+fill: #ffffff;
 
+}
 }
 }
