@@ -295,7 +295,9 @@ input {
 .footer_social-list__icon {
     display:block;
     border-radius: 50%;
-    text-align: center;
+    text-align: center; 
+    padding-left: 12px;
+    padding-top: 10px;
     background-color: rgb(59, 89, 151);
     width: 42px;
     height: 42px;
