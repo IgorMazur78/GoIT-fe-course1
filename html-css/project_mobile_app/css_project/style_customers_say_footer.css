@@ -295,6 +295,10 @@ input {
 .footer_social-list__icon {
     display:block;
     border-radius: 50%;
+    text-align: center;
+    padding-top: 8 px;
+    padding-left: 10px;
+
     background-color: rgb(59, 89, 151);
     width: 42px;
     height: 42px;
@@ -356,6 +360,8 @@ input {
     height: 5px;
     z-index: 193;
   }
+  
+  
   
   
   
