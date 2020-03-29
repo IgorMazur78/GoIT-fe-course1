@@ -282,16 +282,7 @@ input {
     width: 170px;
     height: 50px;
 }
-.footer_sendmessage:focus:valid {
-    outline-color: green;
-    outline-width: 5px;
-    outline-style: dotted;
-}
-.footer_sendmessage:focus:invalid {
-    outline-color: red;
-    outline-width: 3px;
-    outline-style: dotted;
-}
+
 
 
 .footer_get_in_tuoch{
@@ -327,11 +318,11 @@ input {
     display:block;
     border-radius: 50%;
     text-align: center; 
-    padding-left: 10px;
-    padding-top: 10px;
+    padding-left: 16px;
+    padding-top: 16px;
     background-color: rgb(59, 89, 151);
-    width: 22px;
-    height: 22px;
+    width: 32px;
+    height: 32px;
 }
 
 .footer_social-list__icon:hover {
@@ -341,8 +332,8 @@ input {
 }
 
 .footer-telefon-number {
-    font-size: 14px;
-    font-family: "OpenSans";
+    font-size: 16px;
+    font-family: "OpenSans-semibold";
     color: rgb(191, 172, 226);
     font-weight: bold;
     line-height: 1.714;
@@ -351,7 +342,7 @@ input {
   .footer-e-mail{
       position: relative;
     font-size: 14px;
-    font-family: "OpenSans-semibold";
+    font-family: "OpenSans";
     color: rgb(191, 172, 226);
     font-weight: bold;
     line-height: 1.714;
@@ -359,6 +350,8 @@ input {
     padding-bottom: 80px;
     
   }
+  
+  
 
   .footer-e-mail::after {
     position: absolute;
@@ -513,6 +506,7 @@ input {
             width: 1200px;
             height: 3px;
           }
+          
         
 
 
